@@ -9,7 +9,6 @@ fi
 
 if [[ $1 = "-n" ]]; then
   SQLFILE="$(find $HOME/.mozilla/firefox -name cookies.sqlite)"
-  echo $SQLFILE
 else
   SQLFILE="$1"
 fi

@@ -1,0 +1,2 @@
+Convert firefox's sqlite cookies file into traditional
+text output and send to stdout.
